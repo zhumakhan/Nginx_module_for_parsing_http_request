@@ -1,0 +1,15 @@
+/*
+#define strConcat(des, src)\
+    {u_char * ngx_temp_variable = NULL;\
+    size_t i_counter, size_size = des.len + src.len;\
+    ngx_temp_variable = (u_char*)calloc(size_size, sizeof(u_char));\
+    for(i_counter = 0; i_counter < des.len; i_counter++){\
+     ngx_temp_variable[i_counter] = des.data[i_counter];\
+    }\
+    for(i_counter = des.len; i_counter < size_size; i_counter++){\
+     ngx_temp_variable[i_counter] = src.data[i_counter-des.len];\
+    }\
+    free(des.data);\
+    des.data = ngx_temp_variable;\
+    des.len = size_size;}
+*/
